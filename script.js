@@ -1,21 +1,30 @@
-function showDescription(name) {
+function showDescription(label) {
   const descriptions = {
-    'Diagnostics': 'AI helps in faster and more accurate diagnostics.',
-    'Treatment': 'AI enables personalized treatment plans.',
-    'Medical Imaging': 'LLMs assist in interpreting medical scans.',
-    'Drug Discovery': 'AI accelerates drug development by analyzing patterns.',
-    'Monitoring': 'AI monitors patients in real-time for critical conditions.',
-    'Privacy': 'Ensuring patient data remains confidential.',
-    'Bias': 'Avoiding biased predictions in healthcare systems.',
-    'Transparency': 'Making AI decisions explainable.',
-    'Accountability': 'Assigning responsibility for AI outcomes.',
-    'Data Quality': 'Ensuring datasets are clean and complete.',
-    'Model Robustness': 'Making models reliable under different conditions.',
-    'Scalability': 'Deploying models to large healthcare systems.',
-    'Integration': 'Merging AI into existing hospital systems.',
-    'Security': 'Protecting models and data from breaches.',
-    'Explainability': 'Understanding how the AI reached its decision.'
+    "Diagnostics": "Using AI to identify diseases early.",
+    "Treatment": "AI-assisted personalized treatment plans.",
+    "Medical Imaging": "AI for analyzing X-rays and MRIs.",
+    "Drug Discovery": "AI helps find new potential medicines.",
+    "Monitoring": "Real-time health monitoring with AI.",
+    "Privacy": "Protecting patient data confidentiality.",
+    "Bias": "Avoiding unfair treatment due to skewed data.",
+    "Transparency": "Making AI decisions explainable.",
+    "Accountability": "Ensuring responsibility in AI use.",
+    "Data Quality": "Ensuring input data is accurate and complete.",
+    "Model Robustness": "Making AI perform well across scenarios.",
+    "Scalability": "Expanding AI systems efficiently.",
+    "Integration": "Merging AI tools with hospital systems.",
+    "Security": "Preventing attacks on healthcare AI.",
+    "Explainability": "Understanding how AI makes decisions."
   };
 
-  document.getElementById('descriptionBox').innerHTML = `<p><strong>${name}:</strong> ${descriptions[name] || 'No description available.'}</p>`;
+  const descriptionText = descriptions[label] || "No description available.";
+
+  // Update both boxes if present
+  const appBox = document.getElementById("applicationsDescription");
+  const chalBox = document.getElementById("challengesDescription");
+  const tchalBox = document.getElementById("technicalchallengesDescription");
+
+  if (appBox) appBox.innerHTML = `<p>${descriptionText}</p>`;
+  if (chalBox) chalBox.innerHTML = `<p>${descriptionText}</p>`;
+  if (tchalBox) tchalBox.innerHTML = `<p>${descriptionText}</p>`;
 }
