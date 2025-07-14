@@ -2,35 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Interactive Block Diagram</title>
+  <title>Interactive Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="header">Agentic AI in Elderly Care</h1>
-  <h2 class="header">Ruhul Amin, Kashif Ahmad, Hazrat Ali</h2>
 
-  <div class="dashboard">
-    <div class="block" onclick="showDescription('Data Source')">
-      <img src="https://img.icons8.com/color/96/database.png" alt="Data Source">
-      <p>Data Source</p>
-    </div>
-    <div class="block" onclick="showDescription('Processor')">
-      <img src="https://img.icons8.com/color/96/chip.png" alt="Processor">
-      <p>Processor</p>
-    </div>
-    <div class="block" onclick="showDescription('Analyzer')">
-      <img src="https://img.icons8.com/color/96/combo-chart--v1.png" alt="Analyzer">
-      <p>Analyzer</p>
-    </div>
-    <div class="block" onclick="showDescription('Dashboard')">
-      <img src="https://img.icons8.com/color/96/dashboard.png" alt="Dashboard">
-      <p>Dashboard</p>
-    </div>
-  </div>
+  <h1>Interactive Dashboard</h1>
 
+  <!-- Applications Section -->
+  <section class="dashboard-section">
+    <h2>Applications</h2>
+    <div class="block-container">
+      <div class="block" onclick="showDescription('Diagnostics')">
+        <img src="assets/icons/diagnostics.png" alt="Diagnostics">
+        <p>Diagnostics</p>
+      </div>
+      <div class="block" onclick="showDescription('Treatment')">
+        <img src="assets/icons/treatment.png" alt="Treatment">
+        <p>Treatment</p>
+      </div>
+      <div class="block" onclick="showDescription('Medical Imaging')">
+        <img src="assets/icons/imaging.png" alt="Medical Imaging">
+        <p>Medical Imaging</p>
+      </div>
+      <div class="block" onclick="showDescription('Drug Discovery')">
+        <img src="assets/icons/drug.png" alt="Drug Discovery">
+        <p>Drug Discovery</p>
+      </div>
+      <div class="block" onclick="showDescription('Monitoring')">
+        <img src="assets/icons/monitoring.png" alt="Monitoring">
+        <p>Monitoring</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Challenges Section -->
+  <section class="dashboard-section">
+    <h2>Challenges</h2>
+
+    <h3>Balancing Innovation with Ethics</h3>
+    <div class="block-container">
+      <div class="block" onclick="showDescription('Privacy')">
+        <img src="assets/icons/privacy.png" alt="Privacy">
+        <p>Privacy</p>
+      </div>
+      <div class="block" onclick="showDescription('Bias')">
+        <img src="assets/icons/bias.png" alt="Bias">
+        <p>Bias</p>
+      </div>
+      <div class="block" onclick="showDescription('Transparency')">
+        <img src="assets/icons/transparency.png" alt="Transparency">
+        <p>Transparency</p>
+      </div>
+      <div class="block" onclick="showDescription('Accountability')">
+        <img src="assets/icons/accountability.png" alt="Accountability">
+        <p>Accountability</p>
+      </div>
+    </div>
+
+    <h3>Technical Challenges</h3>
+    <div class="block-container">
+      <div class="block" onclick="showDescription('Data Quality')">
+        <img src="assets/icons/data_quality.png" alt="Data Quality">
+        <p>Data Quality</p>
+      </div>
+      <div class="block" onclick="showDescription('Model Robustness')">
+        <img src="assets/icons/robustness.png" alt="Model Robustness">
+        <p>Model Robustness</p>
+      </div>
+      <div class="block" onclick="showDescription('Scalability')">
+        <img src="assets/icons/scalability.png" alt="Scalability">
+        <p>Scalability</p>
+      </div>
+      <div class="block" onclick="showDescription('Integration')">
+        <img src="assets/icons/integration.png" alt="Integration">
+        <p>Integration</p>
+      </div>
+      <div class="block" onclick="showDescription('Security')">
+        <img src="assets/icons/security.png" alt="Security">
+        <p>Security</p>
+      </div>
+      <div class="block" onclick="showDescription('Explainability')">
+        <img src="assets/icons/explainability.png" alt="Explainability">
+        <p>Explainability</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Description Box -->
   <div class="description-box" id="descriptionBox">
-    <h2>Click a block to see description</h2>
-    <p id="descriptionText"></p>
+    <p>Click any icon to see the description here.</p>
   </div>
 
   <script src="script.js"></script>
