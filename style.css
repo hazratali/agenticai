@@ -66,8 +66,24 @@ h3 {
   font-weight: 600;
 }
 
+
 /* Description box */
-.description-box {
+.description-box1 {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #e3f2fd;         /* Light blue background */
+  border: 2px dashed #1565c0;        /* Medium blue dashed border */
+  border-radius: 10px;
+  color: #0d47a1;                    /* Dark blue text */
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+/* Description box */
+.description-box3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
