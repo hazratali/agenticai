@@ -1,7 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Block Diagram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <h1 class="header">Interactive Dashboard</h1>
+
+  <div class="dashboard">
+    <div class="block" onclick="showDescription('Data Source')">
+      <img src="https://img.icons8.com/color/96/database.png" alt="Data Source">
+      <p>Data Source</p>
+    </div>
+    <div class="block" onclick="showDescription('Processor')">
+      <img src="https://img.icons8.com/color/96/chip.png" alt="Processor">
+      <p>Processor</p>
+    </div>
+    <div class="block" onclick="showDescription('Analyzer')">
+      <img src="https://img.icons8.com/color/96/combo-chart--v1.png" alt="Analyzer">
+      <p>Analyzer</p>
+    </div>
+    <div class="block" onclick="showDescription('Dashboard')">
+      <img src="https://img.icons8.com/color/96/dashboard.png" alt="Dashboard">
+      <p>Dashboard</p>
+    </div>
+  </div>
+
+  <div class="description-box" id="descriptionBox">
+    <h2>Click a block to see description</h2>
+    <p id="descriptionText"></p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
