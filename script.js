@@ -31,7 +31,7 @@
 function showDescription(label, boxId) {
   const descriptions = {
     "Enable Indepedence": "Helping with daily tasks, such as schedule appointments, manage medication reminders, or navigate online services. <br>Helping with basic tasks such as grocery ordering, appliances control, etc",
-    "Companionship": "text here.",
+    "Companionship": "Provide companionship and emotional support. <br>Provide sense of connection. <br>Provide empathetic responses.",
     "Healthcare Assistance": "text here.",
     "Cognitive Engagement": "text here.",
     "Enabling Inclusivity": "text here.",

@@ -67,9 +67,9 @@ h3 {
 }
 
 .block-number {
-  font-size: 36px;
+  font-size: 44px;
   font-weight: bold;
-  color: #2c6e49;
+  color: #46026b;
   margin-bottom: 10px;
 }
 
@@ -79,10 +79,10 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #ffeeee; /* Lightest red background */
-  border: 2px dashed #ff9999; /* A slightly darker red for the border */
+  background-color: #ecc8ff;; /* Lightest purple background */
+  border: 2px dashed #46026b; /* A slightly darker purple for the border */
   border-radius: 10px;
-  color: #cc0000; /* A darker red for the text, ensuring readability */
+  color: #46026b; /* A darker purple for the text, ensuring readability */
   font-size: 15px;
   line-height: 1.6;
   text-align: left;
