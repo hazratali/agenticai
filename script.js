@@ -41,10 +41,11 @@ function showDescription(label, boxId) {
     "Accuracy": "Ensuring responsibility in AI use.",
     "Data Quality": "Ensuring input data is accurate and complete.",
     "Model Robustness": "Making AI perform well across scenarios.",
-    "Scalability": "Expanding AI systems efficiently.",
     "Integration": "Merging AI tools with hospital systems.",
-    "Security": "Preventing attacks on healthcare AI.",
-    "Explainability": "Understanding how AI makes decisions."
+    "Fairness": "Desription text will appear here.",
+    "Accountability": "Desription text will appear here.",
+    "Data Management": "Desription text will appear here.",
+
   };
 
   const descriptionText = descriptions[label] || "No description available.";
