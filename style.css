@@ -36,7 +36,7 @@ h3 {
 /* Individual block */
 .block {
   width: 130px;
-  height: 140px;
+  height: 130px;
   padding: 10px;
   background-color: #ffffff;
   border-radius: 16px;
@@ -64,6 +64,13 @@ h3 {
   font-size: 14px;
   color: #2c3e50;
   font-weight: 600;
+}
+
+.block-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c6e49;
+  margin-bottom: 10px;
 }
 
 

@@ -30,11 +30,11 @@
 // }
 function showDescription(label, boxId) {
   const descriptions = {
-    "Diagnostics": "Using AI to identify diseases early.",
-    "Treatment": "AI-assisted personalized treatment plans.",
-    "Medical Imaging": "AI for analyzing X-rays and MRIs.",
-    "Drug Discovery": "AI helps find new potential medicines.",
-    "Monitoring": "Real-time health monitoring with AI.",
+    "Enable Indepedence": "Helping with daily tasks, such as schedule appointments, manage medication reminders, or navigate online services. <br>Helping with basic tasks such as grocery ordering, appliances control, etc",
+    "Companionship": "text here.",
+    "Healthcare Assistance": "text here.",
+    "Cognitive Engagement": "text here.",
+    "Enabling Inclusivity": "text here.",
     "Privacy": "Protecting patient data confidentiality.",
     "Trust": "Avoiding unfair treatment due to skewed data.",
     "Inclusivity": "Making AI decisions explainable.",
