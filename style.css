@@ -72,10 +72,10 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #e3f2fd;         /* Light blue background */
-  border: 2px dashed #1565c0;        /* Medium blue dashed border */
+  background-color: #ffeeee; /* Lightest red background */
+  border: 2px dashed #ff9999; /* A slightly darker red for the border */
   border-radius: 10px;
-  color: #0d47a1;                    /* Dark blue text */
+  color: #cc0000; /* A darker red for the text, ensuring readability */
   font-size: 15px;
   line-height: 1.6;
   text-align: left;
@@ -86,10 +86,10 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #ffeeee; /* Lightest red background */
-  border: 2px dashed #ff9999; /* A slightly darker red for the border */
+  background-color: #f2fbf7;
+  border: 2px dashed #2c6e49;
   border-radius: 10px;
-  color: #cc0000; /* A darker red for the text, ensuring readability */
+  color: #1c3b2f;
   font-size: 15px;
   line-height: 1.6;
   text-align: left;
@@ -101,10 +101,10 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #f2fbf7;
-  border: 2px dashed #2c6e49;
+  background-color: #e3f2fd;         /* Light blue background */
+  border: 2px dashed #1565c0;        /* Medium blue dashed border */
   border-radius: 10px;
-  color: #1c3b2f;
+  color: #0d47a1;                    /* Dark blue text */
   font-size: 15px;
   line-height: 1.6;
   text-align: left;
