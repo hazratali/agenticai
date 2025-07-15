@@ -32,9 +32,9 @@ function showDescription(label, boxId) {
   const descriptions = {
     "Enable Independence": "Helping with daily tasks, such as schedule appointments, manage medication reminders, or navigate online services. <br>Helping with basic tasks such as grocery ordering, appliances control, etc",
     "Companionship": "Provide companionship and emotional support. <br>Provide sense of connection. <br>Provide empathetic responses.",
-    "Healthcare Assistance": "text here.",
-    "Cognitive Engagement": "text here.",
-    "Enabling Inclusivity": "text here.",
+    "Healthcare Assistance": "Analyze medical records, monitor vital signs. <br> Provide real-time insights into health markers. <br> Predictive healthcare management and risk management.",
+    "Cognitive Engagement": "Interactiv story telling. <br> Adaptive learning module.",
+    "Enabling Inclusivity": "Adapt communication style and language to create personalized plans. <br>Voice-based interface.",
     "Privacy": "Protecting patient data confidentiality.",
     "Trust": "Avoiding unfair treatment due to skewed data.",
     "Inclusivity": "Making AI decisions explainable.",
