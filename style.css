@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica', sans-serif;
   background-color: #fdfdfd;
   color: #333;
   margin: 0;
