@@ -11,10 +11,10 @@ function showDescription(label, boxId) {
     "Accuracy": "Ensuring responsibility in AI use.",
     "Data Quality": "Ensuring input data is accurate and complete.",
     "Model Robustness": "Making AI perform well across scenarios.",
-    "Integration": "Merging AI tools with hospital systems.",
-    "Fairness": "Desription text will appear here.",
-    "Accountability": "Desription text will appear here.",
-    "Data Management": "Robust measures needed to comply HIPAA and GDPR in data handling. <br>Do the patients retain data owndership?"
+    "Integration": "Merging AI tools with hospital systems. <br>Existing elderly care relies on a highly fragmented ecosystem.",
+    "Fairness": "Agentic AI systems are only as reliable as the data on which they are trained.",
+    "Accountability": "In adverse scenarios, who is accountable?. <br> Can caregiver override an AI recommendation? <br>A naive user/patient may treat AI-generated medical advice as definitive.",
+    "Data Management": "Robust measures needed to comply HIPAA and GDPR in data handling. <br>Do the patients retain data owndership?",
     "Prompt Injection": "Prompt injection can override safeguards and sysem prompts. <br>Adversary triggers jail-broken LLM to reveal private medical history or provide unsafe suggestions ",
   };
 
