@@ -15,12 +15,12 @@ h1 {
 }
 
 h2 {
-  color: #387780;
+  color: #65d997;
   margin-top: 40px;
 }
 
 h3 {
-  color: #5796a1;
+  color: #65d997;
   margin-top: 20px;
 }
 
@@ -115,4 +115,30 @@ h3 {
   font-size: 15px;
   line-height: 1.6;
   text-align: left;
+}
+
+
+.button-row {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  flex-wrap: wrap;         /* Allow wrap on smaller screens */
+  gap: 10px;               /* Add space between buttons */
+  margin: 20px auto;
+}
+
+.button-31 {
+  background-color: #cef7e5;
+  color: #2c6e49;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-31:hover {
+  background-color: #b3daff;
+  color: #2c6e49;
 }
