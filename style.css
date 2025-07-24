@@ -79,7 +79,7 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #eed4fc;; /* Lightest purple background */
+  background-color: #eed4fc; /* Lightest purple background */
   border: 2px dashed #46026b; /* A slightly darker purple for the border */
   border-radius: 10px;
   color: #46026b; /* A darker purple for the text, ensuring readability */
@@ -93,7 +93,7 @@ h3 {
   margin: 40px auto;
   padding: 20px;
   max-width: 600px;
-  background-color: #f2fbf7;
+  background-color: #f2fbf7; /* Light green background */
   border: 2px dashed #2c6e49;
   border-radius: 10px;
   color: #1c3b2f;
@@ -205,7 +205,19 @@ h3 {
 
 /* Individual reference block */
 .reference-block {
-  background-color: #e6f2ff;
+  background-color: #eed4fc;
+  color: #002b45;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 51, 102, 0.1);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 100%;
+  width: 100%;
+}
+
+.reference-block3 {
+  background-color: #f2fbf7;
   color: #002b45;
   padding: 5px;
   border-radius: 12px;
