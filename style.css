@@ -149,7 +149,7 @@ h3 {
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #29db75;
   cursor: pointer;
   flex: 0 0 auto;
   font-family: 'Segoe UI', sans-serif;
@@ -184,3 +184,35 @@ h3 {
     padding: .75rem 1.5rem;
   }
 }
+
+/* Section Heading */
+.section-heading {
+  color: #003366;
+  font-size: 22px;
+  margin: 40px 0 20px;
+  text-align: left;
+  border-bottom: 2px solid #cce5ff;
+  padding-bottom: 5px;
+}
+
+/* Reference container with one-block-per-row */
+.reference-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Individual reference block */
+.reference-block {
+  background-color: #e6f2ff;
+  color: #002b45;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 51, 102, 0.1);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 100%;
+  width: 100%;
+}
+
